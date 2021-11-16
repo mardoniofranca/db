@@ -1,2 +1,2 @@
-# dbescola
+# db
 Database refers to school
