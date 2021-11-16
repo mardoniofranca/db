@@ -1,0 +1,286 @@
+chatbot
+um bot/robô 
+system
+
+>bot
+>mfranca
+
+
+input
+output
+
+
+
+
+==============
+
+
+notas de um aluno>
+
+
+
+
+
+problema
+
+boletim de um aluno
+2o grau
+-----------
+matematica
+4,8,10,8
+============
+
+substantivos
+nouns
+
+
+entidades
+tabelas
+dataframes
+
+
+
+
+
+
+escola
+
+================================
+alunos
+professores
+disciplinas 
+notas
+frequencia
+=========================
+alunos
+________
+matricula
+nome
+data_nasc
+serie
+endereco
+
+
+disciplinas
+__________
+codigo
+nome
+carga_horaria
+cod_professor
+----------------------------------------
+
+
+professor
+____________________
+codigo
+nome
+cod_formacao 
+
+formacao
+cod
+descricao
+
+
+
+
+
+
+
+
+aluno
+mat,nome, dt, serie, end
+
+
+
+frequencia_diaria
+___________
+codigo
+cod_aluno
+cod_disciplina
+data
+status (0,1,2)
+obs
+
+
+
+
+
+
+prof
+cod,nome
+1,nildo
+2,ramos
+3,renan
+4,josue
+5,vini
+
+disciplina
+codigo,nome,carga_horaria,cod_professor
+1,ótica-teórica,40,2
+2,ótica-experimental,20,1
+3,mec-experimental,20,1
+4,mec quântica,40,2
+5,data science,40,5
+
+frequencia_diaria
+___________
+codigo,cod_aluno,cod_disciplina,data,status,obs
+1,1,1,'19/10/2021',1,'-' -----
+2,1,2,'20/10/2021',2,'-' -----faltou
+_
+
+
+
+
+
+=========================
+chatbot
+____________________
+dominio:
+datascience
+____________
+eu: o q modelagem de dados
+alan:
+------------------------
+dominio:
+física
+____________
+
+
+
+
+banco de dados
+n- tabelas
+n- colunas
+
+------------
+correlation pearson
+
+===================================
+
+
+
+quantidade de 
+transações 
+no cartão de débito
+
+quantidade de 
+dias entre a primeira
+compra e a data de referencia
+para o ramo de atividade ___
+
+
+=========
+-Quantidade de transações no cartão de débito para o ramo de atividade --
+Consultar tabela auxiliar D1D.RMAT_PERSONA_CONSUMO
+-Quantidade de dias entre a primeira compra e a data de referencia para o ramo de atividade --
+
+-Soma total do valor das transações
+no 
+===========
+Quantidade de transações no cartão de débito para o ramo de atividade --
+Consultar tabela auxiliar D1D.RMAT_PERSONA_CONSUMO para mais detalhes
+
+
+
+Quantidade de dias entre a primeira compra e a data de referencia para o ramo de atividade --
+Consultar tabela auxiliar D1D.RMAT_PERSONA_CONSUMO para mais detalhes
+
+
+
+Soma do valor das transações no cartão de débito para o ramo de atividade --
+Consultar tabela auxiliar D1D.RMAT_PERSONA_CONSUMO para mais detalhes
+
+[11:24] Leandro Rubens da Silva
++-------------------------------+----------------------------------------------------+----------------------------------------------------+
+| col_name | data_type | comment |
++-------------------------------+----------------------------------------------------+----------------------------------------------------+
+| # col_name | data_type | comment |
+| cd_rmat | int | |
+| tx_sub_rmat_macro | string | |
+| cd_sub_rmat_macro | int | |
+| tx_sub_rmat_micro | string | |
+| categoria_agrupada | string | |
+| cd_categorira_agrupada | int | |
+| | NULL | NULL |
+| # Detailed Table Information | NULL | NULL |
+| Database: | sbx_bigsa043 | NULL |
+| OwnerType: | USER | NULL |
+| Owner: | bigbbd01 | NULL |
+| CreateTime: | Fri Aug 27 09:13:19 BRT 2021 | NULL |
+| LastAccessTime: | UNKNOWN | NULL |
+| Retention: | 0 | NULL |
+| Location: | hdfs://PROD/dados/transientes/big/bigsa043/hve/external/rmat_persona_consumo | NULL |
+| Table Type: | EXTERNAL_TABLE | NULL |
+| Table Parameters: | NULL | NULL |
+| | EXTERNAL | TRUE |
+| | bucketing_version | 2 |
+| | discover.partitions | true |
+| | numFiles | 1 |
+| | spark.sql.create.version | 2.2 or prior |
+| | spark.sql.sources.schema.numParts | 1 |
+| | spark.sql.sources.schema.part.0 | {\"type\":\"struct\",\"fields\":[{\"name\":\"cd_rmat\",\"type\":\"integer\",\"nullable\":true,\"metadata\":{}},{\"name\":\"tx_sub_rmat_macro\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"cd_sub_rmat_macro\",\"type\":\"integer\",\"nullable\":true,\"metadata\":{}},{\"name\":\"tx_sub_rmat_micro\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"categoria_agrupada\",\"type\":\"string\",\"nullable\":true,\"metadata\":{}},{\"name\":\"cd_categorira_agrupada\",\"type\":\"integer\",\"nullable\":true,\"metadata\":{}}]} |
+| | totalSize | 5156 |
+| | transient_lastDdlTime | 1630348828 |
+| | NULL | NULL |
+| # Storage Information | NULL | NULL |
+| SerDe Library: | org.apache.hadoop.hive.ql.io.orc.OrcSerde | NULL |
+| InputFormat: | org.apache.hadoop.hive.ql.io.orc.OrcInputFormat | NULL |
+| OutputFormat: | org.apache.hadoop.hive.ql.io.orc.OrcOutputFormat | NULL |
+| Compressed: | No | NULL |
+| Num Buckets: | -1 | NULL |
+| Bucket Columns: | [] | NULL |
+| Sort Columns: | [] | NULL |
+| Storage Desc Params: | NULL | NULL |
+| | serialization.format | 1 |
++-------------------------------+----------------------------------------------------+----------------------------------------------------+
+
+db2
+db2bic
+base de interacao dos clientes
+db2bic.tran_inro_cli
+=========
+omg uml 2.x
+==========
+marcar reunião anne
+verificar o nome das var
+trans_cod_
+============
+rmat,vip,deb
+==============
+
+validar_
+deb
+vip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

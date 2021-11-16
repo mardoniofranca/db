@@ -1,0 +1,23 @@
+Modelagem de um sistema escolar
+
+Sistema escolar para uma escola de Ensino Primário
+
+Do 1o. ao 9o. ano
+
+Esta escolas tem 3 turnos:
+manhã, tarde e integral
+
+Todos os alunos tem apenas 1 responsável.
+
+Os professores podem ministrar quaisquer disciplinas desde que tenham formação para tal.
+
+Os alunos fazem a chamada apenas 1 vez, no inicio da aula.
+
+Todas as disciplinas são ministradas no intervalo de 1'50'', ou seja, na metade de 1 turno, desta forma, em cada turno temos 2 disciplinas + intervalo.
+
+1 turno = 1 aula + 1 intervalo + 1 aula
+	 1'50'' + 20'' + 1'50''
+
+Iniciando às 8 e terminando às 12, pela manhã
+
+E começando às 13 e terminando às 17.
